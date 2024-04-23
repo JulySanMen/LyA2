@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodos de Busqueda</title>
+</head>
+<body>
+    <div class="container">
+        <form id="searchForm" action="/buscar" method="post">
+            <div class="input-container">
+            </div>
+            <button type="button" onclick="puzzlelineal()">Puzzle Lineal BFS</button>
+            <button type="button" onclick="vuelos()">Vuelos BFS</button>
+            <button type="button" onclick="DFS()">DFS</button>
+            <button type="button" onclick="DFSIter()">DFS Iterativo</button>
+            <button type="button" onclick="obtener_ruta()">Dijkstra</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="../static/metos.js"></script>
+</body>
+</html>
