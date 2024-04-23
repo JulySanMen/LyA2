@@ -33,7 +33,7 @@ def DFS():
 @app.route('/DFSIter',methods=['GET'])
 def DFSIter():
     res=""
-    res=dfi.DFSIter
+    res=dfi.DFSIter()
     return jsonify(resultado=res)
 
 @app.route('/obtener_ruta',methods=['GET'])
